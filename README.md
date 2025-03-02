@@ -15,10 +15,10 @@ This repository provides a **scalable and modular SaaS boilerplate** built with 
 Clone the repo and start building your SaaS platform with best practices in mind!
 
 ```sh
-git clone https://github.com/your-repo.git
-cd your-repo
-npm install
-npm run dev
+git clone https://github.com/ajitaro/saas-node.git
+cd saas-node
+yarn
+yarn dev
 ```
 
 💡 **Contributions & Feedback are Welcome!**
