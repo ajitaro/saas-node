@@ -1,15 +1,19 @@
 {
     "compilerOptions": {
         "target": "ESNext",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
+        "module": "Preserve",
+        "moduleResolution": "bundler",
         "outDir": "dist",
         "rootDir": "./",
         "strict": true,
         "esModuleInterop": true,
         "moduleDetection": "force",
         "isolatedModules": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
     },
     "include": ["src", "drizzle.config.ts, prettier.config.ts"],
     "exclude": ["node_modules", "dist"]
