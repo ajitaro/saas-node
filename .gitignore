@@ -28,3 +28,9 @@ pnpm-debug.log*
 # OS-specific
 .DS_Store
 Thumbs.db
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarnrc.yml
