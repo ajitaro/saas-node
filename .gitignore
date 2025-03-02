@@ -34,3 +34,9 @@ Thumbs.db
 !.yarn/releases
 !.yarn/plugins
 !.yarnrc.yml
+
+# Jest
+coverage/
+jest-cache/
+jest-report/
+.nyc_output/
